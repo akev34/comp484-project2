@@ -1,6 +1,6 @@
 # Giga Pet Project
 
-### REQUIREMENT #1: Pet Info Object ✓
+### REQUIREMENT #1: Pet Info Object 
 **Location:** script.js, lines 19-25
 Created `pet_info` object with:
 - name: "Buddy"
@@ -8,7 +8,7 @@ Created `pet_info` object with:
 - happiness: 75
 - energy: 80 (bonus property for new button)
 
-### REQUIREMENT #2: Button Behaviors ✓
+### REQUIREMENT #2: Button Behaviors 
 **Location:** script.js, lines 27-82
 **Treat Button:**
 - Happiness +10
@@ -25,26 +25,26 @@ Created `pet_info` object with:
 - Weight -8
 - Energy -15
 
-### REQUIREMENT #3: Fixed Key Bugs ✓
+### REQUIREMENT #3: Fixed Key Bugs 
 **Location:** script.js, lines 114-143
 Added conditionals to prevent negative values:
 - Weight, happiness, and energy cannot go below 0
 - Also added maximum caps at 100 for balance
 
-### REQUIREMENT #4: New Action Button ✓
+### REQUIREMENT #4: New Action Button 
 **Location:** index.html, lines 42-44 and script.js, lines 67-82
 **Sleep Button:**
 - Energy +30
 - Happiness -3
 - Weight -2
 
-### REQUIREMENT #5: New Behavior Display ✓
+### REQUIREMENT #5: New Behavior Display 
 **Location:** index.html, line 29 and script.js
 Added "Energy" stat display below happiness in HTML
 - Updates in real-time with pet actions
 - Managed by new Sleep button
 
-### REQUIREMENT #6: Visual Notifications ✓
+### REQUIREMENT #6: Visual Notifications 
 **Location:** script.js, lines 84-112 and style.css, lines 89-116
 Created notification system that:
 - Shows custom messages for each action
@@ -52,7 +52,7 @@ Created notification system that:
 - Auto-hides after 2 seconds
 - No console.log() or alert() used
 
-### REQUIREMENT #7: Two jQuery Methods ✓
+### REQUIREMENT #7: Two jQuery Methods 
 
 **Method #1: .addClass() / .removeClass()**
 - **Location:** script.js, lines 89-109
