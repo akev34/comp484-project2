@@ -1,5 +1,7 @@
 # Giga Pet Project
 
+https://akev34.github.io/comp484-project2/
+
 ### REQUIREMENT #1: Pet Info Object 
 **Location:** script.js, lines 19-25
 Created `pet_info` object with:
